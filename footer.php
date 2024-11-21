@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+    Student Name: Di Wu
+    Student No.: 041-165-211
+    Lab: CST8285 311
+    Assignment: Lab Exercise 05
+    Date: November-15-2024
+    Professor: Hala Own
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    File Name: footerM.php
+    Page Description: To create general footer for web pages.
+-->
 
-</head>
-
-<footer>
-        <div class="icons">
-         <p>Shares Knowledge and Solves Problems Together!</p>
-        </div>
-
-         <div id="Copyright">
-         <p>Copyright 2024 by Xin Guo.</p>
-         </div>
-     </footer> 
-
+        <footer>&copy; 2024 Echo Matrix </footer>
+    </main>
+</body>
 </html>

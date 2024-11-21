@@ -17,7 +17,7 @@
     <meta name="description" content="introduction of form validation">
     <meta name="keyword" content="JavaScript, form validation, form, Selector">
     <meta name="author" content="Di Wu">
-    <title>Sign Up for EchoMatrix</title>
+    <title>Log into EchoMatrix</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="js/script.js" defer></script>
@@ -26,12 +26,7 @@
     <div class="formcontainer">
         <h1>EchoMatrix</h1>
         <hr>
-        <form action="register.php" method="POST" onsubmit="return validate();">
-
-            <div class="textfield">
-                <label for="email">Email Address</label>
-                <input class="input-size" type="text" name="email" id="email" placeholder="Email">
-            </div>
+        <form action="log-on.php" method="POST" onsubmit="return validate();">
 
             <div class="textfield">
                 <label for="login">User Name</label>
@@ -42,26 +37,10 @@
                 <label for="pass">Password</label>
                 <input class="input-size" type="password" name="pass" id="pass" placeholder="Password">
             </div>
-        
-            <div class="textfield">
-                <label for="pass2">Re-type Password</label>
-                <input class="input-size" type="password" id="pass2" placeholder="Password">
-            </div>
 
-            <div class="checkbox">
-                <input type="checkbox" name="newsletter" id="newsletter" value="TRUE">
-                <label for="newsletter">I agree to receive EchoMatrix newsletters</label>
-            </div>
+            <button class="input-size" id="log-in" type="submit">Log In</button>
 
-            <div class="checkbox">
-                <input type="checkbox" name="terms" id="terms">
-                <label for="terms">I agree to the terms and conditions</label>
-            </div>
-
-            <button class="input-size" id="sign-up" type="submit">Sign-Up</button>
-            <button class="input-size" id="reset" type="reset">Reset</button>
-
-            <p><a href="index.html">Already have an account?</a></p>
+            <p>Don't have an account?<a href="registration.html">Sign Up</a></p>
 
         </form>
     </div>
