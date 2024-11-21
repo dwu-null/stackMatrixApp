@@ -1,0 +1,52 @@
+/*
+    Student Name: Di Wu
+    Student No.: 041-165-211
+    Lab: CST8285 311
+    Assignment: Lab Exercise 04
+    Date: November-01-2024
+    Professor: Hala Own
+
+    File Name: weeklykitten.css
+    Page Description: External CSS stylesheet.
+*/
+
+.formcontainer {
+    margin: 0 100px;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.input-size {
+    height: 30px;
+    font-size: 12pt;
+}
+
+#sign-up {
+    background-color: rgb(0, 115, 255);
+    border-color: rgb(0, 115, 255);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#reset {
+    background-color: rgb(255, 30, 0);
+    border-color: rgb(255, 30, 0);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.warning {
+    font-family: sans-serif;
+    color: red;
+    margin: 0;
+}
+
+.checkbox > p {
+    display: inline;
+    margin-left: 20px;
+}

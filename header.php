@@ -1,22 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="index.css" >
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <meta name="author" content="Xin Guo" >
-  </head>
+<!--
+    Student Name: Di Wu
+    Student No.: 041-165-211
+    Lab: CST8285 311
+    Assignment: Lab Exercise 05
+    Date: November-15-2024
+    Professor: Hala Own
 
-  <body>
+    File Name: headerM.php
+    Page Description: To create general header for web pages.
+-->
+
+<body>
     <header>
-      <a href="index.php"><img src="imgs/forum_icon.png" alt="home" height="40"></a>
-
-        <nav>
-          <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="registration.php">Register</a></li>
-            <li><a href="login.php">Login</a></li>
-            <li><a href="individual.php">Mypage</a></li>
-          </ul>
-        </nav>
-      </header>
+        <h1>Welcome to Echo Matrix</h1>
+        <div class="tagline">Movies you can watch!</div>
+    </header>
